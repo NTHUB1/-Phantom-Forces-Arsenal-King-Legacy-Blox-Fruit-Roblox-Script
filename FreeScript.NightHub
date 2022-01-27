@@ -1,0 +1,28 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("NIGHT HUB", "DarkTheme")
+
+--Phantom Forces
+local Tab = Window:NewTab("Phantom Forces")
+local Section = Tab:NewSection("HACK")
+Section:NewButton("USE", "Click", function()
+loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+--Arsenal
+local Tab = Window:NewTab("Arsenal")
+local Section = Tab:NewSection("HACK")
+Section:NewButton("USE", "Click", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+end)
+--Blox Fruit
+local Tab = Window:NewTab("Blox Fruit")
+local Section = Tab:NewSection("HACK")
+Section:NewButton("USE", "Click", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+--King Legacy
+local Tab = Window:NewTab("King Legacy")
+local Section = Tab:NewSection("HACK")
+Section:NewButton("USE", "Click", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua")()
+end)
+--
